@@ -3,6 +3,19 @@
     <head>
         <title>Test Page</title>
         <meta charset="UTF-8">
+        <style>
+            .bio-box {
+                color: firebrick;
+            }
+
+            div {
+                border: 2px solid darkgray;
+            }
+
+            #exec-bio {
+                color:cornflowerblue;
+            }
+        </style>
     </head>
     <body>
         <h1>Site Links</h1>
@@ -15,8 +28,11 @@
             </li>
         </ul>
         <h2>Header 2</h2>
-        <div style="border: 1px solid greenyellow;">
-            <a href="http://wayfair.okta.com/" style="color: cornflowerblue">Okta</a>
+        <div id="exec-bio" class="bio-box">
+            <a href="http://wayfair.okta.com/">Okta</a>
+        </div>
+        <div class="bio-box">
+            <a href="http://admin.wayfair.com." style="color:cornflowerblue;">Admin Home</a>
         </div>
     </body>
 </html>
